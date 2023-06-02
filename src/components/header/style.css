@@ -1,0 +1,31 @@
+.landing_page_header {
+    max-height: 100vh;
+}
+
+.landing_page_header h1 {
+    color: #fbfbfb;
+}
+
+.landing_page_header h2 {
+    color: #fbbf24;
+}
+
+.social_media_icon {
+    width: 32px;
+}
+
+.demo_buttons_container {
+    width: 100%;
+}
+
+.demo_button {
+    border-color: #fbfbfb;
+    border-width: 1px;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    background: rgb(167,191,198);
+    background: -moz-radial-gradient(circle, rgba(167,191,198,1) 0%, rgba(45,52,54,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(167,191,198,1) 0%, rgba(45,52,54,1) 100%);
+    background: radial-gradient(circle, rgba(167,191,198,1) 0%, rgba(45,52,54,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a7bfc6",endColorstr="#2d3436",GradientType=1);
+}
