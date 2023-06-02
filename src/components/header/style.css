@@ -28,4 +28,11 @@
     background: -webkit-radial-gradient(circle, rgba(167,191,198,1) 0%, rgba(45,52,54,1) 100%);
     background: radial-gradient(circle, rgba(167,191,198,1) 0%, rgba(45,52,54,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a7bfc6",endColorstr="#2d3436",GradientType=1);
+    transition: 0.5s;
+}
+
+.demo_button:hover {
+    color: #fbbf24;
+    border-color: #fbbf24;
+    transition: 0.5s;
 }
