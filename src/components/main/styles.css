@@ -1,0 +1,35 @@
+.projects_container img {
+  transition: 1s;
+  filter: grayscale(0%);
+}
+
+.projects_container img:hover {
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.project_label, .project_label span {
+    display: none;
+}
+
+.projects_container img {
+  transition: 1s;
+  filter: grayscale(0%);
+}
+
+.projects_container img:hover {
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.project_label, .project_label span {
+    display: none;
+}
+
+.projects_container img:hover + .project_label {
+  display: inline;
+}
+
+.projects_container img:hover + .project_label span {
+  display: block;
+}
