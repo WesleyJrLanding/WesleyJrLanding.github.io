@@ -46,7 +46,7 @@ const socialMediaLinks: SocialMediaLinkType[] = [
 const Header: React.FC = () => {
   const [openModal, setOpenModal] = useState<ModalsEnum | null>(null)
 
-  return <header className='landing_page_header flex justify-center items-center flex-col'>
+  return <header className='landing_page_header flex justify-center items-center flex-col min-h-screen'>
     <h1 className='font-bold text-6xl'>Wesley Junior</h1>
     <h2 className='font-semibold text-2xl mt-4'>Visual Effects Compositor | Motion Designer</h2>
     <div className='flex aligm-items-center space-x-4 w-100 mt-4'>
