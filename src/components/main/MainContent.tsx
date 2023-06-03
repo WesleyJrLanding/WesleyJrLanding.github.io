@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import ReactBeforeSliderComponent from 'react-before-after-slider-component';
-import 'react-before-after-slider-component/dist/build.css';
+import ReactBeforeSliderComponent from 'react-node-before-after-slider-component';
+import 'react-node-before-after-slider-component/dist/build.css';
 import './styles.css'
 
 import beforeImage from '../../images/slider_before.jpg';

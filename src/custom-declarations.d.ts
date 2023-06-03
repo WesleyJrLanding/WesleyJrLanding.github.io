@@ -7,7 +7,7 @@ declare module '*.png' {
     export default value;
   }
 
-  declare module 'react-before-after-slider-component' {
+  declare module 'react-node-before-after-slider-component' {
     export default class BeforeAfterSlider extends React.Component {
       public props;
       constructor(params: any)
