@@ -9,8 +9,8 @@ const IndexPage: React.FC<PageProps> = () => {
   return (
     <MainContainer>
       <Header />
-      {/* <MainContent />
-      <Footer /> */}
+      <MainContent />
+      <Footer />
     </MainContainer>
   )
 }
