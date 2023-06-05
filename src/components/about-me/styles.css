@@ -1,0 +1,11 @@
+.avatar_content img{
+  border: solid 2px #fbfbfb;
+}
+
+.description_content p {
+  margin-top: 2%;
+}
+
+.description_content {
+  color: #fbfbfb
+}

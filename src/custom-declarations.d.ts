@@ -7,6 +7,11 @@ declare module '*.png' {
     export default value;
   }
 
+  declare module '*.jpeg' {
+    const value: string;
+    export default value;
+  }
+
   declare module 'react-node-before-after-slider-component' {
     export default class BeforeAfterSlider extends React.Component {
       public props;
