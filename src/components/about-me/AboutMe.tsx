@@ -16,16 +16,17 @@ type AboutMeProps = {
 const AboutMe: React.FC<AboutMeProps> = ({ avatar, description, defaultLanguage }) => {
   const [language, setLanguage] = useState(defaultLanguage)
 
-  return <div className='flex mt-24 space-x-4'>
-    <div className='avatar_content w-3/12'>
+  return <div className='grid md:grid-cols-4 mt-24 gap-4'>
+    <div className='avatar_content col-span-4 md:col-span-1'>
       <img src={avatar} alt="Wesley Junior" />
     </div>
-    <div className='w-9/12 flex-col'>
+    <div className='col-span-4 md:col-span-3'>
       {description.map((translate) => 
       <IconButton 
         onClick={() => setLanguage(translate.language)} 
         style={{
-        borderRadius: 12
+          borderRadius: 12,
+          paddingTop: 0
       }}><img className="language_icon_btn max-w-full" src={translate.languageIcon} alt={translate.language} /></IconButton>)}
       <div className='description_content text-sm'>
         {description.find(translate => translate.language ===language)?.text}
