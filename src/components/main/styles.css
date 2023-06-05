@@ -1,3 +1,8 @@
+.slider_content {
+  max-height: 75vh;
+  overflow: hidden;
+}
+
 .projects_container img {
   transition: 1s;
   filter: grayscale(0%);
