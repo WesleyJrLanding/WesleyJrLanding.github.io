@@ -3,38 +3,30 @@
   overflow: hidden;
 }
 
-.projects_container img {
+.img_content {
   transition: 1s;
-  filter: grayscale(0%);
 }
 
-.projects_container img:hover {
+.project_content:hover .img_content{
   filter: grayscale(100%);
   transition: 1s;
 }
 
-.project_label, .project_label span {
-    display: none;
+.project_label {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s, visibility 0s linear 1s;
 }
 
-.projects_container img {
-  transition: 1s;
-  filter: grayscale(0%);
-}
-
-.projects_container img:hover {
-  filter: grayscale(100%);
-  transition: 1s;
-}
-
-.project_label, .project_label span {
-    display: none;
-}
-
-.projects_container img:hover + .project_label {
-  display: inline;
-}
-
-.projects_container img:hover + .project_label span {
+.project_label span {
   display: block;
+  text-transform: uppercase;
+  color: #fbbf24;
 }
+
+.project_content:hover .project_label {
+  opacity: 1;
+  visibility: visible;
+  transition: 1s;
+}
+
