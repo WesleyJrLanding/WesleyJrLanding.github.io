@@ -73,6 +73,7 @@ const MainContent: React.FC = () => {
           }
         ]}
       />
+      
     </main >
   );
 }
