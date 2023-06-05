@@ -11,11 +11,10 @@ export type ProjectsProps = {
 }
 
 const Projects: React.FC<ProjectsProps> = ({ projects }) => {
-  const gridNumber = 12 / projects.length
 
-  return <div className='projects_container flex justify-center w-100 mt-24 space-x-4'>
+  return <div className='projects_container mt-24 gap-4 grid grid-cols-1 md:grid-cols-2'>
     {projects.map((project) =>
-      <div className={`project_content w-${gridNumber}/12 relative`}>
+      <div className={`project_content relative `}>
         <div className='project_label absolute top-8 left-8 z-40'>
           <span className='project_title text-4xl font-semibold'>{project.title}</span>
           <span className='project_year text-lg font-extrabold'>{project.year}</span>
